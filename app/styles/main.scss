@@ -1,0 +1,67 @@
+// bower:scss
+// endbower
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.detail-container {
+    display: inline-block;
+    width: 442px;
+}
+
+.thumbnails-container {
+    vertical-align: top;
+    display: inline-block;
+    width: 550px;
+}
+
+.detail-view {
+    border: 1px solid #acacac;
+    width: 400px;
+    min-height: 400px;
+    padding: 20px;
+
+    img {
+        width: 100%;
+    }
+
+    .save-button {
+        background: grey;
+        color: white;
+        border: 1px solid black;
+        font-size: 20px;
+        box-shadow: inset 0 0 0 1px white;
+        cursor: pointer;
+        padding: 10px 30px;
+        display: inline-block;
+    }
+
+    .new-button {
+        background: lightgrey;
+        color: white;
+        border: 1px solid black;
+        font-size: 20px;
+        box-shadow: inset 0 0 0 1px white;
+        cursor: pointer;
+        padding: 10px 30px;
+        display: inline-block;
+    }
+}
+
+
+.thumbnail {
+    margin: 5px;
+    float: left;
+    display: inline-block;
+    height: 200px;
+
+    img {
+        height: 100%;
+    }
+}
